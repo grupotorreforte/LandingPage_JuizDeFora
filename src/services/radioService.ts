@@ -42,7 +42,7 @@ class RadioService {
   private listeners: ((playing: boolean) => void)[] = [];
   private isPlaying = false;
   private audio: HTMLAudioElement | null = null;
-  private audioUrl = "https://stm6.srvstm.com:7076";
+  private audioUrl = "https://stm6.srvstm.com:7076/stream";
 
   private getAudio(): HTMLAudioElement {
     if (!this.audio) {
