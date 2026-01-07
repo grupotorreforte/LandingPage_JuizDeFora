@@ -119,8 +119,9 @@ const Index = () => {
             </p> */}
 
             <p className="text-xs text-gray-200 mt-2">
-              © 2026 Rádio 94.7 Maravilha FM — Todos os direitos reservados.
+              © {new Date().getFullYear()} Rádio 94.7 Maravilha FM — Todos os direitos reservados.
             </p>
+
           </div>
         </div>
       </div>
