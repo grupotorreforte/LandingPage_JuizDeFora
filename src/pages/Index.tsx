@@ -121,7 +121,6 @@ const Index = () => {
             <p className="text-xs text-gray-200 mt-2">
               © {new Date().getFullYear()} Rádio 94.7 Maravilha FM — Todos os direitos reservados.
             </p>
-
           </div>
         </div>
       </div>
