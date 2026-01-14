@@ -3,7 +3,7 @@ import AudioPlayer from "@/components/AudioPlayer";
 import SocialLinks from "@/components/SocialLinks";
 import bgDesktop from "@/assets/bg-desktop.png";
 import bgMobile from "@/assets/bg-mobile.png";
-import logoSitee from "@/assets/logoSitee.svg";
+import logoSite from "@/assets/logoSite.svg";
 import { Link } from "react-router-dom";
 import { Video } from "lucide-react";
 const Index = () => {
@@ -30,7 +30,7 @@ const Index = () => {
           
         <div className="flex justify-center mb-10 animate-fade-in">
           <img
-            src={logoSitee}
+            src={logoSite}
             alt="Logo Rádio"
             className="w-50 md:w-100"
           />
@@ -87,7 +87,7 @@ const Index = () => {
           {/* Logo */}
           <div className="flex justify-center md:justify-start w-full md:w-auto">
             <img
-              src={logoSitee}
+              src={logoSite}
               alt="Logo Rádio Maravilha"
               className="w-20 animate-fade-in"
             />
@@ -98,11 +98,11 @@ const Index = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.google.com/maps/place/R.+Geraldo+Rios,+80+-+Centro,+Jo%C3%A3o+Pinheiro+-+MG,+38770-000/@-17.7442961,-46.1769804,17z/data=!3m1!4b1!4m10!1m2!2m1!1sRua+Geraldo+Rios,+80+-+Centro!3m6!1s0x94abe2e2ed3273af:0x9754ab51e5fe5895!8m2!3d-17.7443013!4d-46.1721095!15sCh1SdWEgR2VyYWxkbyBSaW9zLCA4MCAtIENlbnRyb5IBEWNvbXBvdW5kX2J1aWxkaW5n4AEA!16s%2Fg%2F11c4qf7_4q?entry=ttu&g_ep=EgoyMDI2MDEwNC4wIKXMDSoASAFQAw%3D%3D"
+              href="https://www.google.com/maps/place/Blue+Tower/@-21.7687201,-43.3500311,17z/data=!3m2!4b1!5s0x989b648c26bedd:0x229bbcd1d0147429!4m13!1m6!4m5!1m0!1m3!2m2!1d-43.347534!2d-21.768795!3m5!1s0x989b5ddb7f7439:0x9f6e78d1d5e49d4c!8m2!3d-21.7687251!4d-43.3474562!16s%2Fg%2F11bw3zjpcm?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D"
               className="hover:underline"
             >
               <p className="text-sm md:text-base leading-snug">
-                R. Geraldo Rios, 80 - Centro, João Pinheiro - MG, 38770-000<br />
+                Av. Barão do Rio Branco, 3053 - Granbery, Juiz de Fora - MG, 36010-012<br />
               </p>
             </a>
 
