@@ -42,7 +42,7 @@ class RadioService {
   private listeners: ((playing: boolean) => void)[] = [];
   private isPlaying = false;
   private audio: HTMLAudioElement | null = null;
-  private audioUrl = "https://srv.soundstream.com.br/listen/maravilhafm/live"; //trocar link de stream
+  private audioUrl = "http://srv.soundstream.com.br:8030/live"; //trocar link de stream
  
   private getAudio(): HTMLAudioElement {
     if (!this.audio) {
