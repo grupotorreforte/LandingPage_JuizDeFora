@@ -34,7 +34,6 @@ export async function getRadioInfo(): Promise<RadioInfo | null> {
     return null;
   }
 }
-
 // -----------------------------
 // para controlar o player
 // -----------------------------
@@ -42,15 +41,19 @@ class RadioService {
   private listeners: ((playing: boolean) => void)[] = [];
   private isPlaying = false;
   private audio: HTMLAudioElement | null = null;
-  private audioUrl = "http://srv.soundstream.com.br:8030/live"; //trocar link de stream
+  private audioUrl = "https://srv.soundstream.com.br:8030/live"; //trocar link de stream
  
   private getAudio(): HTMLAudioElement {
     if (!this.audio) {
-      this.audio = new Audio(this.audioUrl);
-      this.audio.crossOrigin = "anonymous";
+      this.audio = new Audio();
+      this.audio.src = this.audioUrl;
+      this.audio.preload = "none";
+      this.audio.autoplay = false;
+      // NÃO setar crossOrigin
     }
     return this.audio;
   }
+
 
   getPlayingState() {
     return this.isPlaying;
